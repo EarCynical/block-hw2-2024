@@ -1,0 +1,53 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+
+    background: #F2F3F4;
+}
+
+.main {
+    padding: 10px;
+}
+
+.operation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.buttons {
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    max-width: 400px;
+}
+
+.house-card p {
+    margin: 5px 0;
+}
+
+.house-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    overflow-x: auto; /* 当房屋卡片过多时，可以横向滚动 */
+    padding: 10px;
+}
+
